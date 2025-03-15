@@ -1,0 +1,13 @@
+{
+    // Use project version of typescript
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+    // Format file on save
+    "editor.formatOnSave": true,
+
+    // Fix warnings and error that are auto fixable
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+    }
+}
